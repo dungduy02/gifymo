@@ -1,0 +1,103 @@
+.container1 {
+    // height: 75px;
+    background-image: url(http://demo2.themelexus.com/gifymo/wp-content/uploads/2021/05/line-dot.png);
+    background-position: top center;
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: repeat-x;
+    display: flex;
+
+    .menu {
+        width: 78%;
+        height: inherit;
+        align-content: center;
+        display: grid;
+
+        .listMenu {
+            align-content: center;
+            justify-content: flex-start;
+            display: flex;
+            align-items: center;
+
+            .active {
+                background: rgb(187, 61, 61);
+
+            }
+
+            .itemslist {
+                display: flex;
+                margin-right: 20px;
+                list-style: none;
+                height: 40px;
+
+                &:hover {
+                    background: rgb(187, 61, 61);
+                }
+
+                .item {
+                    margin: 0;
+                    line-height: 40px;
+
+                    .items {
+                        font-size: 15px;
+                        font-weight: 500;
+                        // padding: 20px 5px;
+                        line-height: 16px;
+                        width: 0;
+                        text-decoration: none;
+                        color: #000;
+                    }
+                }
+
+            }
+        }
+    }
+    .search {
+        width: 30%;
+        margin: 0;
+        align-items: center;
+        .search_form{
+            box-sizing: border-box;
+            min-height: 50px;
+            display: flex-end;
+            margin-top: 13px;
+            align-items: center;
+            .icon_search{
+                margin-left: 0;
+                width: 20px;
+                display: table-header-group;
+                margin-top: inherit;
+                height: 20px;
+                .icon_seachBr{
+                    margin-top: inherit;
+                }
+                .input_search{
+                    font-size: 16px;
+                    margin-left: 10px;
+                    
+                    border: 0px;
+                    
+                }
+                
+            }
+        }
+    }
+}
+
+
+.left {
+    margin: 0;
+    width: 20px;
+    border-top: 20px solid transparent;
+    border-left: 10px solid white;
+    border-bottom: 20px solid transparent;
+}
+
+.right {
+    margin: 0;
+    padding-right: 10px;
+    width: 20px;
+    border-top: 20px solid transparent;
+    border-right: 10px solid white;
+    border-bottom: 20px solid transparent;
+}

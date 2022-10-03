@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    min-height: 142px;
+    margin: 10px 20px;
+    background: #fff;
+
+    .logo {
+        width: 17.5%;
+        text-align: left;
+        align-items: center;
+        display: flex;
+
+        .logo_icon {
+            align-content: center;
+            align-items: center;
+        }
+
+        .icon_logo {
+            width: 156px;
+
+        }
+    }
+
+    .list_info {
+        display: flex;
+        width: 82.5%;
+        max-width: 1440px;
+        align-items: center;
+
+        .content {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            justify-content: space-around;
+
+        }
+    }
+}
+
+.format {
+    width: 40%;
+    width: auto;
+    display: flex;
+
+    .icon {
+        margin-right: 25px;
+        // background-color: black;
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+    .text{
+        font-size: 14px;
+        font-weight: 400;
+        margin: auto;
+        text-align: left;
+        color: #788090;
+        p{
+            color: #000;
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+}

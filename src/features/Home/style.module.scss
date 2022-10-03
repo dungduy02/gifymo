@@ -1,0 +1,13 @@
+.container{
+    height: 1000px;
+    background-color: rgb(102, 197, 175);
+    display: flex;
+    .content_home{
+        width: 75%;
+        background: blue;
+    }
+    .sidebar{
+        width: 20,66%;
+        background-color: burlywood;
+    }
+}
