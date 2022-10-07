@@ -1,13 +1,17 @@
 .container{
-    height: 1000px;
-    background-color: rgb(102, 197, 175);
+    padding: 0px 30px;
+    height: 100%;
     display: flex;
+    background-color: #f8f8f8;
+    background-image: url(http://demo2.themelexus.com/gifymo/wp-content/uploads/2021/05/bg-body.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
     .content_home{
         width: 75%;
-        background: blue;
     }
-    .sidebar{
-        width: 20,66%;
-        background-color: burlywood;
+    .sidebar_home{
+        width: 24%;
+       
     }
+    
 }

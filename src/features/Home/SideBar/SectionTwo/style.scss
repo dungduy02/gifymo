@@ -1,0 +1,33 @@
+.containerTwo{
+   width: 100%;
+   margin: 20px 0px;
+   border-radius: 10px;
+   background-color: #fff;
+   .Two_active{
+      background-image: url(http://demo2.themelexus.com/gifymo/wp-content/uploads/2021/05/line-dot.png);
+      background-position: bottom center;
+      background-repeat: repeat-x;
+   }
+   .items2{
+      margin: auto;
+      padding: 30px 0 50px 0;
+     
+      width: 90%;
+      .image{
+         img{
+            width: 50%;
+         }
+      }
+      .content2{
+         .title2{
+            h4{
+               margin: 10px 5px;
+            }
+         }
+         p{
+            margin: 0;
+         }
+
+      }
+   }
+}

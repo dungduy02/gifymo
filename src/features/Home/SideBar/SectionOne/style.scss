@@ -1,0 +1,19 @@
+.category{
+  width: 100%;
+  background-color: #fed2cc;
+  border-radius: 10px;
+  .cate_active{
+    background-image: radial-gradient(circle at 1.5px,rgba(0,0,0,.2) 0.75px,rgba(255,255,255,0) 1.5px);
+    background-size: 8px 2px;
+    background-repeat: repeat-x;
+    background-repeat: repeat-x;
+    background-position: bottom center;
+  }
+  .itemCate{
+    margin: 0px 30px;
+    padding: 20px 0px;
+    font-size: 18px;
+    text-align: left;
+    color: #be7374;
+  }
+}
