@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/gifymo/static/css/main.9b76e284.css",
+    "main.js": "/gifymo/static/js/main.294495b3.js",
+    "static/js/787.a8472a00.chunk.js": "/gifymo/static/js/787.a8472a00.chunk.js",
+    "static/media/gift_qr_code.gif": "/gifymo/static/media/gift_qr_code.e1f24a02f37fe8b045c2.gif",
+    "static/media/gift_confetti.gif": "/gifymo/static/media/gift_confetti.56737f8d80036a42fdc6.gif",
+    "static/media/ship.gif": "/gifymo/static/media/ship.d4157c7b7f728c0fe6ca.gif",
+    "static/media/support.gif": "/gifymo/static/media/support.e0cd3131c4bb2d36b254.gif",
+    "static/media/gift.gif": "/gifymo/static/media/gift.133f2f7de837472ef0fa.gif",
+    "static/media/cart.gif": "/gifymo/static/media/cart.6a6b1f3842f8989e390b.gif",
+    "static/media/slider1.png": "/gifymo/static/media/slider1.a80ab1161a9a675eaa52.png",
+    "static/media/vn.png": "/gifymo/static/media/vn.e78840258767faaa77ac.png",
+    "static/media/banner3.jpg": "/gifymo/static/media/banner3.e02429ee2cdb965741d0.jpg",
+    "static/media/logo.svg": "/gifymo/static/media/logo.6d4706ea41563a8763a086c9cfb5278b.svg",
+    "index.html": "/gifymo/index.html",
+    "main.9b76e284.css.map": "/gifymo/static/css/main.9b76e284.css.map",
+    "main.294495b3.js.map": "/gifymo/static/js/main.294495b3.js.map",
+    "787.a8472a00.chunk.js.map": "/gifymo/static/js/787.a8472a00.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b76e284.css",
+    "static/js/main.294495b3.js"
+  ]
+}
