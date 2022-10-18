@@ -6,6 +6,7 @@ import homeStyle from './style.module.scss'
 const ListTypeOfProduct = TypeOfProduct;
 
 function Home(props){
+    console.log(props)
     return (
         <div>
             <div className={`${homeStyle.container}`}>

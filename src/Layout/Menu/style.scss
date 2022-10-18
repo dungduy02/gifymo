@@ -14,6 +14,9 @@
         display: grid;
 
         .listMenu {
+            .linkList{
+                text-decoration: none;
+            }
             align-content: center;
             justify-content: flex-start;
             display: flex;

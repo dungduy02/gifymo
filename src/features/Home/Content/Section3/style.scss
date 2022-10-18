@@ -1,0 +1,10 @@
+
+.items_price{
+   margin: 10px 20px;
+   display: flex;
+   justify-content: center;
+   .item_price{
+      color: #788090;
+      text-decoration: line-through;
+   }
+}
