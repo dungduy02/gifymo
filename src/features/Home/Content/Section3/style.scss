@@ -1,10 +1,21 @@
-
-.items_price{
+.layout-items{
+   padding: 0 20px;
+   // margin: 0 30px;
+   .features_items{
+      margin: 10px;
+   }
+   .img_items {
+      width: -webkit-fill-available;
+   }
+}
+.items_price {
    margin: 10px 20px;
    display: flex;
    justify-content: center;
-   .item_price{
+
+   .item_price {
       color: #788090;
       text-decoration: line-through;
    }
+
 }

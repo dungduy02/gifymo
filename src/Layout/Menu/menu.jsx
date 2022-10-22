@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 function Menu() {
     return (
         <div>
-            <div className='container1'>
+            <div className='container1 container_menu '>
                 <div className="menu">
                     <ul className="listMenu">
                         <Link to='/gifymo' className='linkList'>

@@ -1,0 +1,110 @@
+// SiderBar */
+.siderBar_Shop {
+   width: 100%;
+   display: block;
+
+}
+
+// Categories Product
+.category_shop {
+   --shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+   .title_cate {
+      background-image: radial-gradient(circle at 1.5px, rgba(0, 0, 0, .2) 0.75px, rgba(255, 255, 255, 0) 1.5px);
+      background-size: 8px 2px;
+      background-repeat: repeat-x;
+      background-repeat: repeat-x;
+      background-position: bottom center;
+      font-weight: 600;
+      padding: 20px 30px;
+   }
+
+   .shop_cate {
+      background-color: white !important;
+      font-size: 20px;
+      color: #788090;
+      box-shadow: aquamarine;
+      background: var(--BG_WHITE);
+      border-radius: 10px;
+      box-shadow: var(--shadow);
+
+      .itemCate {
+         color: #788090;
+      }
+   }
+}
+
+.FilterByPrice {
+   --shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+   border-radius: 10px;
+   margin-top: 20px;
+   box-shadow: var(--shadow);
+   padding: 20px 30px;
+   background-color: white;
+   background-size: 8px 2px;
+   background-repeat: repeat-x;
+   background-repeat: repeat-x;
+   background-position: bottom center;
+}
+
+// RecentReview
+.RecentReview {
+   --shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+   border-radius: 10px;
+   margin-top: 20px;
+   box-shadow: var(--shadow);
+   padding: 20px 30px;
+   background-color: white;
+   background-size: 8px 2px;
+   background-repeat: repeat-x;
+   background-repeat: repeat-x;
+   background-position: bottom center;
+
+   .recent {
+      background-image: radial-gradient(circle at 1.5px, rgba(0, 0, 0, .2) 0.75px, rgba(255, 255, 255, 0) 1.5px);
+      background-size: 8px 2px;
+      background-repeat: repeat-x;
+      background-repeat: repeat-x;
+      background-position: bottom center;
+      padding: 20px 30px;
+      font-family: Jost, sans-serif;
+      font-size: 28px;
+      font-weight: 400;
+      margin-top: 20px;
+      padding: 0 20px 20px;
+   }
+
+   .itemRecent {
+      display: flex;
+      background-image: radial-gradient(circle at 1.5px, rgba(0, 0, 0, .2) 0.75px, rgba(255, 255, 255, 0) 1.5px);
+      background-size: 8px 2px;
+      background-repeat: repeat-x;
+      background-repeat: repeat-x;
+      background-position: bottom center;
+      padding: 20px 0px;
+
+      .img_Recent {
+         width: 30%;
+      }
+
+      .contentRecent {
+         width: 70%;
+         font-size: 18px;
+         text-align: start;
+         padding: 0 10px;
+
+         .star_Recent {
+            margin: 10px 0;
+         }
+
+         &>h4 {
+            color: gray;
+            font-family: Jost, sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            margin: 0;
+         }
+      }
+
+   }
+}

@@ -15,7 +15,7 @@ function Item(props){
                <div className="features_items">
                   <div className="group_image">
                      {/* <img src={data?.image[0]} alt="" /> */}
-                     <img src={require(`../../../../asset/img/${data.image}.jpg`)} alt="" />
+                     <img src={require(`../../../../asset/img/${data.image}.jpg`)} alt="" className='img_items'/>
                      <Box className='group_action'>
                         {/* <FaShoppingCart className='action_icon' />
                         <FiZoomIn className='action_icon' />
