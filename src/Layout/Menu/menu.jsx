@@ -12,7 +12,7 @@ function Menu() {
                         <Link to='/gifymo' className='linkList'>
                             <li className='itemslist active'>
                                 <p className='left'></p>
-                                <p className='item'><a className='items' href="">HOME</a></p>
+                                <p className='item'><a className='items' href="#">HOME</a></p>
                                 <p className='right'></p>
                             </li>
                         </Link>

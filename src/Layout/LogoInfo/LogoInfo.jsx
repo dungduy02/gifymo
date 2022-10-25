@@ -10,7 +10,7 @@ function LogoInfo() {
             <div className='container'>
                 <div className='logo'>
                     <div className='logo_icon'>
-                        <a href="">
+                        <a href="#">
                             <img src={logo} alt="" className='icon_logo' />
                         </a>
                     </div>

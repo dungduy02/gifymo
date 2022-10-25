@@ -63,7 +63,7 @@ function Footer() {
                     <div className="copyright">
                         <div className="contents">
                             <div className="noidung ">Copyright© 2021 </div>
-                            <a href="">Gifymo.</a>
+                            <a href="#">Gifymo.</a>
                         </div>
                         <div className="allright ">All Rights Reserved.</div>
                     </div>
