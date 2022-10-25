@@ -1,0 +1,112 @@
+.ourstory {
+   display: block;
+
+   .ourstory_title {
+      font-size: 30px;
+      margin: 20px 10px;
+   }
+
+   .item_ourstory {
+      margin: 50px;
+
+      .oneourstory {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+
+         .story_img {
+            width: 48%;
+
+            &>img {
+               border-radius: 10px;
+               width: 100%;
+            }
+         }
+
+         .story_content {
+            text-align: start;
+            display: flex;
+            width: 48%;
+            justify-content: center;
+
+            .story_content_item {
+               width: 70%;
+
+               &>h4 {
+                  font-size: 18px;
+                  font-weight: 500;
+               }
+
+               &>h5 {
+                  color: gray;
+                  font-size: 16px;
+                  font-weight: 400;
+                  text-align: justify;
+               }
+            }
+         }
+      }
+   }
+
+   .customerservice {
+      width: fit-content;
+      margin: auto;
+      background-image: radial-gradient(circle at 1.5px, rgba(0, 0, 0, .349) 0.75px, hsla(0, 0%, 100%, .11) 1.5px);
+      background-position: bottom;
+      background-repeat: repeat-x;
+      background-size: 8px 2px;
+
+      &>h4 {
+         margin: 40px;
+         font-family: Sacramento, Sans-serif;
+         font-size: 60px;
+         font-weight: 400;
+
+      }
+   }
+
+   .servicesItem {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      width: 80%;
+      margin: auto;
+      background-image: radial-gradient(circle at 1.5px, rgba(0, 0, 0, .349) 0.75px, hsla(0, 0%, 100%, .11) 1.5px);
+      background-position: bottom;
+      background-repeat: repeat-x;
+      background-size: 8px 2px;
+      padding-bottom: 50px;
+
+      .service {
+         padding-left: 50px;
+         text-align: left;
+
+         &>h3 {
+            font-family: Jost;
+            font-size: 18px;
+            margin: 18px 0;
+            font-weight: 500;
+         }
+
+         &>h4 {
+            color: gray;
+            font-family: Jost;
+            font-size: 16px;
+            font-weight: 400;
+            text-align: left;
+         }
+      }
+   }
+}
+
+
+.list_ourstory {
+   display: block;
+
+   .list_ourstory_item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+   }
+}

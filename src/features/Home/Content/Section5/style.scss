@@ -1,0 +1,26 @@
+.layout_feature5 {
+   margin: 30px 0 0 20px;
+   border-radius: 10px;
+   background-color: white;
+
+   .title>h4 {
+      display: inline-block;
+      font-family: "Sacramento, Sans-serif";
+      font-size: 60px;
+      font-weight: 400;
+      margin: 35px 0 0;
+      justify-content: center;
+   }
+
+   .text_gifts {
+      font-size: 16px;
+      font-weight: 400;
+      margin: 0;
+   }
+
+   .item-sub-content__h5{
+      color: gray;
+    font-weight: 400;
+    margin: 10px 0 30px;
+   }
+}

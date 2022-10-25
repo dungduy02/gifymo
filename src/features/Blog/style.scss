@@ -1,0 +1,141 @@
+// index-blog
+.blog {
+   margin: 20px;
+   margin-top: 50px;
+
+   .content_blog {
+      width: 70%;
+   }
+
+   .sideBar_blog {
+      width: 30%;
+      margin-left: 50px;
+   }
+}
+
+// content section
+.content-blog {
+   overflow-y: scroll;
+   height: 200vh;
+   text-align: justify;
+
+   .blog-item {
+      &>img {
+         border-radius: 10px;
+      }
+
+      .content_item {
+         padding: 20px;
+         font-family: Jost;
+         margin-bottom: 20px;
+
+         &>a {
+            text-decoration: none;
+            color: black;
+
+            &>h4 {
+               font-size: 30px;
+               font-weight: 500;
+               margin: 20px 0;
+            }
+         }
+
+         .content_item_blog {
+            display: flex;
+
+            .info_item {
+               display: flex;
+
+               &>h3 {
+                  color: hsla(0, 1%, 65%, .767);
+               }
+            }
+         }
+
+         &>p {
+            color: gray;
+            font-size: 18px;
+            padding-top: 20px;
+            padding-bottom: 50px;
+         }
+      }
+
+
+   }
+}
+
+// sideBar section
+.sideBar_blog {
+   text-align: justify;
+   margin-bottom: 40px;
+
+   .item_catefories {
+      background-image: radial-gradient(circle at 1.5px, rgba(0, 0, 0, .2) 0.75px, hsla(0, 0%, 100%, 0) 1.5px);
+      background-position: bottom;
+      background-repeat: repeat-x;
+      background-size: 8px 2px;
+      padding: 18px 0;
+   }
+
+   .item_catefories:last-child {
+      background-image: none;
+   }
+
+   .tag_blog {
+      display: flex;
+      flex-wrap: wrap;
+   }
+
+   .item_tags {
+      .item_tags_css {
+         border: 2px solid #b9acac93;
+         border-radius: 5px;
+         color: gray;
+         display: inline-block;
+         margin-bottom: 8px;
+         margin-right: 10px;
+         padding: 5px 15px;
+         transition: all .2s linear;
+      }
+   }
+
+   .categories {
+      font-size: 20px;
+      margin-bottom: 10px;
+   }
+
+   .item_recent_posts {
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 30px;
+
+      .img_blog_recent {
+         width: 30%;
+
+         &>img {
+            width: 100%;
+            border-radius: 10px;
+         }
+      }
+
+      .content_blog_recent {
+         width: 70%;
+         margin-left: 20px;
+
+         &>h4 {
+            display: -webkit-box;
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 10px;
+            max-width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+         }
+         &>h5{
+            color: gray;
+            font-weight: 500;
+         }
+      }
+   }
+}

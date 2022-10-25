@@ -1,5 +1,6 @@
 import './style.scss'
 import vn from '../../asset/img/vn.png'
+import { Link } from 'react-router-dom'
 
 function Header(){
     return (
@@ -16,7 +17,9 @@ function Header(){
                     <li>Sign In / Register</li>
                     <li>About Us</li>
                     <li>Track Orders</li>
-                    <li>FAQ</li>
+                    <li>
+                        <Link to='/gifymo/faq' className='linkList'>FAQ </Link>
+                        </li>
                 </ul>
             </div>
         </div>

@@ -7,7 +7,7 @@ import cat04 from './../../../../asset/img/cat04.jpg'
 
 function Section5() {
    return (
-      <Box className='layout_feature'>
+      <Box className='layout_feature5'>
          <Box mb={5} mt={3}>
             <div className='title'>
                <h4>Gift kits & baskets</h4>
@@ -18,28 +18,28 @@ function Section5() {
                <Grid item xs={6} sm={4} md={3}>
                   <div className="item-sub-content">
                         <img src={cat01} alt="" />
-                        <h4>For Him</h4>
+                        <h4 className='text_gifts'>For Him</h4>
                         <h5 className="item-sub-content__h5">6 items</h5>
                   </div>
                </Grid>
                <Grid item xs={6} sm={4} md={3}>
                   <div className="item-sub-content">
                         <img src={cat02} alt="" />
-                        <h4>For Baby</h4>
+                        <h4 className='text_gifts'>For Baby</h4>
                         <h5 className="item-sub-content__h5">7 items</h5>
                   </div>
                </Grid>
                <Grid item xs={6} sm={4} md={3}>
                   <div className="item-sub-content">
                         <img src={cat03} alt="" />
-                        <h4>Occasions</h4>
+                        <h4 className='text_gifts'>Occasions</h4>
                         <h5 className="item-sub-content__h5">3 items</h5>
                   </div>
                </Grid>
                <Grid item xs={6} sm={4} md={3}>
                   <div className="item-sub-content">
                         <img src={cat04} alt="" />
-                        <h4>For Her</h4>
+                        <h4 className='text_gifts'>For Her</h4>
                         <h5 className="item-sub-content__h5">8 items</h5>
                   </div>
                </Grid>

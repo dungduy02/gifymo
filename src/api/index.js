@@ -1,3 +1,6 @@
 export * from './TypeOfProduct'
 export * from './ListItems'
 export * from './ReviewProduct'
+export * from './OurStory'
+export * from './Blogs'
+export * from './FAQ'

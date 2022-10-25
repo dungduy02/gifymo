@@ -10,6 +10,8 @@ import Shop from './features/Shop';
 import Blog from './features/Blog';
 import Contact from './features/Contact';
 import Home from './features/Home';
+import { OurStory } from './features';
+import Faq from './features/Faq';
 
 function App() {
   return (
@@ -24,7 +26,8 @@ function App() {
         <Route path='/gifymo/blog' element={<Blog />} />
         <Route path='/gifymo/contact' element={<Contact />} />
         <Route path='/gifymo/product' element={<Product />} />
-        {/* <Route path='/gifymo/ourstory' element={<OurStory />} /> */}
+        <Route path='/gifymo/ourstory' element={<OurStory />} />
+        <Route path='/gifymo/faq' element={<Faq />} />
       </Routes>
       <Footer />
       
