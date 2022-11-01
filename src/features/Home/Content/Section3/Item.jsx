@@ -9,7 +9,6 @@ import {Box, Rating} from '@mui/material'
 
 function Item(props){
    const { data } = props
-   console.log(data)
    return (
       <div>
          <Box className='layout-items'>

@@ -1,7 +1,6 @@
 
 function CategoryProduct(props) {
    const {typeOfProduct} = props;
-   console.log(props)
    return (
       <div>
          <div className="category shop_cate">

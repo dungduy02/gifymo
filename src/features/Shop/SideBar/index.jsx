@@ -5,15 +5,31 @@ import FilterByPrice from './FilterByPrice';
 import RecentReview from './RecentReview';
 
 function SideBarShop(props){
-   const {typeOfProduct, reviewProduct} = props;
-   console.log(reviewProduct)
+   const {
+      typeOfProduct, 
+      reviewProduct,
+      minPrice,
+      maxPrice,
+      // setTypeProduct,
+      filterMinPrice,
+      filterMaxPrice,
+      setFilterMinPrice,
+      setFilterMaxPrice
+   } = props;
    return (
       <div className='container siderBar_Shop'>
          <Box className='category_shop'>
             <CategoryProduct typeOfProduct={typeOfProduct} />
          </Box>
          <Box className='FilterByPrice'>
-            <FilterByPrice />
+            <FilterByPrice 
+               minPrice={minPrice}
+               maxPrice={maxPrice}
+               filterMinPrice={filterMinPrice}
+               filterMaxPrice={filterMaxPrice}
+               setFilterMinPrice={setFilterMinPrice}
+               setFilterMaxPrice={setFilterMaxPrice}
+            />
          </Box>
          <Box className='RecentReview'>
             <RecentReview reviewProduct={reviewProduct} />
