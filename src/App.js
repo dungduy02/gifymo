@@ -12,8 +12,11 @@ import Contact from './features/Contact';
 import Home from './features/Home';
 import { OurStory } from './features';
 import Faq from './features/Faq';
+import { listItems } from "./api/ListItems";
+import { useSelector } from 'react-redux';
 
 function App() {
+  // const {products} = useSelector(state => state.getData)
   return (
     <div className="App">
       <Header />
@@ -28,6 +31,8 @@ function App() {
         <Route path='/gifymo/product' element={<Product />} />
         <Route path='/gifymo/ourstory' element={<OurStory />} />
         <Route path='/gifymo/faq' element={<Faq />} />
+
+        <Route path="/product/:productId" element={<Product />} />
       </Routes>
       <Footer />
       

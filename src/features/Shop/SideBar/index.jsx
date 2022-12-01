@@ -3,23 +3,27 @@ import { Box } from '@mui/material'
 import CategoryProduct from './CategoryProduct';
 import FilterByPrice from './FilterByPrice';
 import RecentReview from './RecentReview';
+import {TypeOfProduct} from '../../../api'
 
 function SideBarShop(props){
    const {
-      typeOfProduct, 
+      // typeOfProduct, 
       reviewProduct,
       minPrice,
       maxPrice,
-      // setTypeProduct,
+      setTypeProduct,
       filterMinPrice,
       filterMaxPrice,
       setFilterMinPrice,
       setFilterMaxPrice
    } = props;
+
+   const data = TypeOfProduct;
+
    return (
       <div className='container siderBar_Shop'>
          <Box className='category_shop'>
-            <CategoryProduct typeOfProduct={typeOfProduct} />
+            <CategoryProduct data={data} setTypeProduct={setTypeProduct} />
          </Box>
          <Box className='FilterByPrice'>
             <FilterByPrice 

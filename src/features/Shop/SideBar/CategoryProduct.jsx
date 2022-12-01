@@ -1,12 +1,17 @@
 
 function CategoryProduct(props) {
-   const {typeOfProduct} = props;
+   const {data, setTypeProduct} = props;
+
+   const handleTypeProduct = (item) =>{
+      setTypeProduct(item);
+      console.log(item)
+   }
    return (
       <div>
          <div className="category shop_cate">
             <div className="title_cate">Product Category</div>
-            {typeOfProduct.map((item, index) => (
-               <div className="itemCate cate_active" key={index}>
+            {data.map((item, index) => (
+               <div className="itemCate cate_active" key={index} onClick = {() => handleTypeProduct(item)}>
                   {item}
                </div>
             ))}

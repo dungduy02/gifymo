@@ -3,8 +3,15 @@ import logo from '../../asset/img/logo.svg'
 import ship from '../../asset/icon/ship.gif'
 import cart from '../../asset/icon/cart.gif'
 import support from '../../asset/icon/support.gif'
+import { useState } from 'react'
+import Cart from '../Cart_Wish/Cart'
 
 function LogoInfo() {
+    const [showCart, setShowCart] = useState(false)
+
+    const handleShowCart = () => {
+        setShowCart(!showCart)
+    }
     return (
         <div>
             <div className='container'>
@@ -35,7 +42,7 @@ function LogoInfo() {
                                 <p>012 - 345 - 6789</p>
                             </div>
                         </div>
-                        <div className='cart format'>
+                        <div className='cart format' onClick={handleShowCart}>
                             <div className='icon_cart icon'>
                                 <img src={cart} alt="" />
                             </div>
@@ -44,6 +51,9 @@ function LogoInfo() {
                                 <p>$0</p>
                             </div>
                         </div>
+                        {/* <div className="cartProduct">
+                            {showCart && <Cart setShowCart={setShowCart} />}
+                        </div> */}
                     </div>
 
                 </div>

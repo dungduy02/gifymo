@@ -26,7 +26,6 @@ function SortProduct(props) {
    console.log(setSortItems)
    console.log(typeProduct)
    console.log(setTypeProduct)
-   console.log(setTypeProduct)
    console.log(minPrice)
    console.log(maxPrice)
    console.log(filterMinPrice)
